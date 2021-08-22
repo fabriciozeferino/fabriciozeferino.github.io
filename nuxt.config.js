@@ -3,10 +3,7 @@ export default {
   target: "static",
 
   googleAnalytics: {
-    id: "G-K5DS24NST8",
-    debug: {
-      sendHitTask: true,
-    },
+    id: "G-XXPW71ZXRR",
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
