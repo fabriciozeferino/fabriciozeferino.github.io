@@ -2,9 +2,9 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
-  // router: {
-  //   base: "fabriciozeferino.github.io",
-  // },
+  googleAnalytics: {
+    id: "G-K5DS24NST8",
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -39,6 +39,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    // https://google-analytics.nuxtjs.org
+    "@nuxtjs/google-analytics",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
