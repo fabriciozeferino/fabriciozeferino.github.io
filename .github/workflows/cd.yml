@@ -1,10 +1,3 @@
-name: cd
-
-on:
-  push:
-    branches:
-      - master
-
 jobs:
   cd:
     runs-on: ${{ matrix.os }}
@@ -24,18 +17,13 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
-        run: npm i
+        run: yarn
 
       - name: Generate
-        run: npm run generate
+        run: yarn run generate
 
       - name: Deploy
-        run: |
-          git config user.name "fabriciozeferino" && git config user.email "fabriciozeferino@gmail.com"
-          npm run deploy
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   run: gh-pages -d dist
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./dist
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
