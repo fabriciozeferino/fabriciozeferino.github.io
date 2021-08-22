@@ -30,8 +30,12 @@ jobs:
         run: npm run generate
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        run: gh-pages -d dist
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+        run: |
+          git config user.name "Fabricio Zeferino" && git config user.email "fabriciozeferino@gmail.com"
+          npm run gh-pages-deploy
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   run: gh-pages -d dist
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./dist
