@@ -1,3 +1,10 @@
+name: cd
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   cd:
     runs-on: ${{ matrix.os }}
