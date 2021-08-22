@@ -3,12 +3,12 @@ export default {
   target: "static",
 
   router: {
-    base: "/",
+    base: "fabriciozeferino.github.io",
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "fabriciozeferino",
+    title: "CV Fabricio Zeferino - Full Stack WebDeveloper",
     htmlAttrs: {
       lang: "en",
     },

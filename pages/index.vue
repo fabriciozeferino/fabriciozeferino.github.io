@@ -5,7 +5,7 @@
         <Avatar class="self-center mb-2" />
 
         <h1 class="text-center font-bold text-2xl">Fabricio Zeferino</h1>
-        <p class="text-center mb-4">Full Stack Developer</p>
+        <p class="text-center mb-4">Full Stack Developer test</p>
 
         <div class="mb-4">
           <Topic icon="profile" text="Profile" />
