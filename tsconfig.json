@@ -1,6 +1,8 @@
 {
     "include": [
-      "./src/**/*"
+      "./components/**/*",
+      "./pages/**/*",
+      "./store/**/*",
     ],
     "compilerOptions": {
       "module": "es2015",

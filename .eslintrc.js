@@ -1,27 +1,25 @@
 module.exports = {
   root: true,
+  parser: 'vue-eslint-parser',
   env: {
-    browser: true,
-    node: true,
+    'browser': true,
+    'es6': true,
+    'node': true,
   },
+
   extends: [
-    "plugin:vue/vue3-essential", 
-    "eslint:recommended"
-    '@nuxtjs',
-    'plugin:nuxt/recommended',
     'plugin:vue/recommended',
     'plugin:vue/essential',
-    'eslint:recommended'
+    'eslint:recommended',
   ],
-  parserOptions: {
-    parser: "babel-eslint",
-  },
+  plugins: ['vue'],
   rules: {
-    indent: ["error", 2, { ignoredNodes: ["TemplateLiteral"] }],
-    semi: ["error", "always"],
-    indent: ["error", 2],
-    "no-multi-spaces": ["error"],
-    quotes: ["warn", "single"],
-    semi: ["warn", "never"],
+    'indent': ['error', 2, { 'ignoredNodes': ['TemplateLiteral'] }],
+    'template-curly-spacing' : 'off',
+    'quotes': ['warn', 'single'],
+    'semi': ['warn', 'never'],
+    'comma-dangle': ['warn', 'always-multiline'],
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   },
-};
+}
