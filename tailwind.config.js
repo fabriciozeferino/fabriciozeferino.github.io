@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        // 'Poppins',
+        'Poppins',
         '-apple-system',
         'BlinkMacSystemFont',
         'Segoe UI',
