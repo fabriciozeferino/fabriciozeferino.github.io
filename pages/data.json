@@ -1,0 +1,41 @@
+{
+  "name": "Fabricio Zeferino",
+  "job_title": "Full Stack Developer",
+  "profile_description": "A passionate full-stack self-taught developer that is aways aiming to learn. I’ve commercial experience working in an application built in Laravel, jQuery, Bootstrap and MySQL where I was responsible for making new features from scratch, going through all the areas of the development.",
+  "skills": [
+    {
+      "name": "Backend",
+      "description": "PHP - Laravel Familiarity with OOP design principles strong understands of Laravel environment as the MVC life cycle. Able to Maintain coding standards and follow good practices. On my studies projects, I have used TDD. @OOP @MVC @API @Laravel @Composer @Eloquent @Query Builder @TDD"
+    },
+    {
+      "name": "Frontend",
+      "description": "Familiarity with OOP design principles strong understands of Laravel environment as the MVC life cycle. Able to Maintain coding standards and follow good practices. On my studies projects, I have used TDD. @OOP @MVC @API @Laravel @Composer @Eloquent @Query Builder @TDD"
+    },
+    {
+      "name": "Database",
+      "description": "Familiarity with OOP design principles strong understands of Laravel environment as the MVC life cycle. Able to Maintain coding standards and follow good practices. On my studies projects, I have used TDD. @OOP @MVC @API @Laravel @Composer @Eloquent @Query Builder @TDD"
+    },
+    {
+      "name": "General",
+      "description": "Great knowledge using Git, git-flow a UNIX Terminal. Even using MacOS all the time I'm familiar with LINUX commands as basic DevOps configuration. @GIT @Unix Shell @MacOS @Linux @Visual Studio Code @PHPStorm @Docker"
+    }
+  ],
+  "education": {
+    "degree_name": "<b>Bachelor of Business Administration</b> 2006 – 2010 | University of South of Santa Catarina (UNISUL)",
+    "degree_description": "This degree gave me technical skills and knowledge such as project management, resource management, communication, team-working and problem-solving."
+  },
+  "professional_summary": "",
+  "work_histories": [
+    {
+      "company_name": "eGov Solutions (https://epep.tv/)",
+      "start_at": "Oct 2018",
+      "end_at": "Oct 2018",
+      "job_title": "Full-Stack Developer",
+      "description": [
+        "Under the guidance of senior developer, I am responsible for analysis issues, design and code new features and improvements for an existing web application. Qualified to the development from the frontend end to the backend end throughout the Database. Worked in a Multitenancy platform for 35 councils.",
+        "Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods as DRY and OOP and clean code, making it much easier to maintain and productive to escalate. Restructured the database, creating referential integrity between registers running multiples SYNC to fix old hardcoding.",
+        "I have worked directly in a creation of a Microservice for reports, wherein a night routine all the data are migrated from MYSQL to a MongoDB making the reports much faster and the MYSQL free for others requests during the day. I helped to Migrate the server from Windows Server to Linux in AWS. Most relevant tools used in this role: Docker, Continues Integration, GitLab, SSH."
+      ]
+    }
+  ]
+}
