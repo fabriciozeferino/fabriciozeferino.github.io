@@ -1,51 +1,69 @@
 {
   "name": "Fabricio Zeferino",
   "job_title": "Full Stack Developer",
-  "profile_description": "A passionate full-stack self-taught developer that is aways aiming to learn. I’ve commercial experience working in an application built in Laravel, jQuery, Bootstrap and MySQL where I was responsible for making new features from scratch, going through all the areas of the development.",
   "skills": [
     {
       "name": "Backend",
-      "description": "PHP - Laravel Familiarity with OOP design principles strong understands of Laravel environment as the MVC life cycle. Able to Maintain coding standards and follow good practices. On my studies projects, I have used TDD. @OOP @MVC @API @Laravel @Composer @Eloquent @Query Builder @TDD"
+      "description": "As a backend developer, I'm familiarized with best practices like OOP, SOLID, DRY, TDD and DDD. Lately, I'm using Laravel as an API and have integrated that with multiple third-party APIs like Stripe. Knowledge using most of the Laravel functionalities like queues, jobs, schedule, etc..."
     },
     {
       "name": "Frontend",
-      "description": "Familiarity with OOP design principles strong understands of Laravel environment as the MVC life cycle. Able to Maintain coding standards and follow good practices. On my studies projects, I have used TDD. @OOP @MVC @API @Laravel @Composer @Eloquent @Query Builder @TDD"
+      "description": "I'm a very detail-oriented developer and enjoy seeing things neat. I use in my dally bases tools like Vue Routes, Vuex, Vue I18n, Vue Test Utils, Jest, npm, WebPack, Jest, TailwindCSS, Nightwatch.js and Cucumber.js."
     },
     {
       "name": "Database",
-      "description": "Familiarity with OOP design principles strong understands of Laravel environment as the MVC life cycle. Able to Maintain coding standards and follow good practices. On my studies projects, I have used TDD. @OOP @MVC @API @Laravel @Composer @Eloquent @Query Builder @TDD"
+      "description": "Excellent understanding of relational databases, currently working with Postgres but I have used MySQL and MongoDB before. I have created complex queries to analyse Business data."
     },
     {
       "name": "General",
-      "description": "Great knowledge using Git, git-flow a UNIX Terminal. Even using MacOS all the time I'm familiar with LINUX commands as basic DevOps configuration. @GIT @Unix Shell @MacOS @Linux @Visual Studio Code @PHPStorm @Docker"
+      "description": "Advanced knowledge using tools like Git, gitflow, GitActions, Docker, docker-compose, macOS, Ubuntu, Centos, PHPStorm."
     }
   ],
   "education": {
     "degree_name": "<b>Bachelor of Business Administration</b> 2006 – 2010 | University of South of Santa Catarina (UNISUL)",
-    "degree_description": "This degree gave me technical skills and knowledge such as project management, resource management, communication, team-working and problem-solving."
+    "degree_description": "This degree gave me skills such as project management, resource management, communication, team-working and problem-solving."
   },
-  "professional_summary": "",
+  "professional_summary": [
+    "Hi, I'm Fabi, a full stack developer living in the UK for more than six years. Hardworking and dedicated, I'm passionate about technology and love what I do as a job.",
+    "More than four years ago I decided to follow my heart and jump into a web developer career. In the last few years, I have delivered solutions for applications in many different areas like e-Commerce, CRM, ERP and more. Using Laravel and Vue.js together I have been able to build amazing things."
+  ],
   "work_histories": [
     {
-      "company_name": "eGov Solutions (https://epep.tv/)",
-      "start_at": "Oct 2018",
-      "end_at": "Oct 2018",
-      "job_title": "Full-Stack Developer",
+      "company_name": "Fourth Wall Creative",
+      "start_at": "December/2019",
+      "end_at": "Current",
+      "job_title": "Lead full stack Developer",
       "description": [
-        "Under the guidance of senior developer, I am responsible for analysis issues, design and code new features and improvements for an existing web application. Qualified to the development from the frontend end to the backend end throughout the Database. Worked in a Multitenancy platform for 35 councils.",
-        "Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods as DRY and OOP and clean code, making it much easier to maintain and productive to escalate. Restructured the database, creating referential integrity between registers running multiples SYNC to fix old hardcoding.",
-        "I have worked directly in a creation of a Microservice for reports, wherein a night routine all the data are migrated from MYSQL to a MongoDB making the reports much faster and the MYSQL free for others requests during the day. I helped to Migrate the server from Windows Server to Linux in AWS. Most relevant tools used in this role: Docker, Continues Integration, GitLab, SSH."
+        "-Built a million-pound football membership platform from scratch.",
+        "-In two years with the help of my teammates created a very scalable application already used by three clubs and with four more in the way.",
+        "-This application has 99% of the backend tested with PHPUnit, Vue components tested with Vue Test Utils and Jest and End to end tests with Nightwatch.js and Cucumber.js.",
+        "-Connects with third party services like Stripe and multiples SSO.",
+        "-CD/CI using GitHub actions, containers and AWS.",
+        "-Facades do deal with multiple clubs' environments.",
+        "-Create relational architecture which is used all along with the business, like in the fulfilment system.",
+        "-Create static pages using Nuxt.js and collaborate with the company ERP."
       ]
     },
     {
-      "company_name": "eGov Solutions (https://epep.tv/)",
-      "start_at": "Oct 2018",
-      "end_at": "Oct 2018",
-      "job_title": "Full-Stack Developer",
+      "company_name": "eGov Solutions",
+      "start_at": "October/2018",
+      "end_at": "December/2019",
+      "job_title": "Full stack Developer",
       "description": [
-        "Under the guidance of senior developer, I am responsible for analysis issues, design and code new features and improvements for an existing web application. Qualified to the development from the frontend end to the backend end throughout the Database. Worked in a Multitenancy platform for 35 councils.",
-        "Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods as DRY and OOP and clean code, making it much easier to maintain and productive to escalate. Restructured the database, creating referential integrity between registers running multiples SYNC to fix old hardcoding.",
-        "I have worked directly in a creation of a Microservice for reports, wherein a night routine all the data are migrated from MYSQL to a MongoDB making the reports much faster and the MYSQL free for others requests during the day. I helped to Migrate the server from Windows Server to Linux in AWS. Most relevant tools used in this role: Docker, Continues Integration, GitLab, SSH."
+        "-Responsible for analysing issues, designing and coding new features and improvements for an existing web application using Laravel, Jquery and MySQL.",
+        "-Qualified to develop the frontend and backend throughout the Database. Multitenancy monolithic platform with 35 clients and thousands of users.",
+        "-Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods such as DRY and OOP and clean code, making it much easier to maintain and escalate.",
+        "-Restructured the database, creating referential integrity between registers and index running multiples SYNC to fix old hardcoded code.",
+        "-Worked directly in a creation of a Microservice for reports, wherein a night routine all the data were migrated from MYSQL to a MongoDB instance making the reports generation instantly to the users and leaving the MYSQL free for requests during the day.",
+        "-Helped to migrate the server from an old legacy Windows Server to Linux in AWS. I have used other relevant tools like Docker, Continues Integration, GitLab, SSH."
+      ]
+    },
+    {
+      "company_name": "Others",
+      "description": [
+        "I have started my developer career in the UK in the last four years, where I have studied full time for a year and then lading to my first job as a developer. While living in Brazil, worked in business management for more than ten years, which help me build the professional I am nowadays and achieve the lead position in my current job.",
+        "Regards,",
+        "<b>Fabricio (Fabi)</b>"
       ]
     }
   ]

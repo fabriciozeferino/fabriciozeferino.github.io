@@ -1,8 +1,6 @@
 <template>
   <div class="flex items-baseline text-base border-b-2 mb-2">
-    <Icon :name="icon" :height="16" :width="16" class="mr-1" />
-
-    <h2 class="inline-block uppercase">
+    <h2 class="inline-block font-medium">
       {{ text }}
     </h2>
   </div>
@@ -10,13 +8,13 @@
 
 <script>
 export default {
-  name: "Topic",
+  name: 'Topic' ,
 
   props: {
     text: { type: String, required: true },
     icon: { type: String, required: true },
   },
-};
+}
 </script>
 
 <style scoped>

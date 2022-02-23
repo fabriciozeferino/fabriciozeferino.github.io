@@ -1,7 +1,10 @@
 <template>
-  <div class="antialiased bg-gray-50 md:py-12 text-xs">
-    <div class="page sm:flex print:flex mx-auto">
-      <div class="sm:w-4/12 pt-6 px-4 bg-cyan-900 text-white flex flex-col">
+  <div class="antialiased bg-gray-50 print:bg-white print:text-black md:py-12 text-sm">
+    <div
+      v-if="content"
+      class="page sm:flex print:flex mx-auto"
+    >
+      <div class="sm:w-4/12 print:w-4/12 print:border-r pt-6 px-4 bg-cyan-900 text-white print:text-black flex flex-col">
         <Avatar class="self-center mb-2" />
 
         <h1 class="text-center font-bold text-2xl">
@@ -10,16 +13,6 @@
         <p class="text-center mb-4">
           {{ content.job_title }}
         </p>
-
-        <div class="mb-4">
-          <Topic
-            icon="profile"
-            text="Profile"
-          />
-          <p>
-            {{ content.profile_description }}
-          </p>
-        </div>
 
         <div class="mb-4">
           <Topic
@@ -42,8 +35,11 @@
             icon="education"
             text="Education"
           />
-          <p class="font-bold text-sm whitespace-nowrap">
-            Bachelor of Business Administration
+          <p
+            class="font-bold whitespace-nowrap"
+            style="font-size: 0.84rem"
+          >
+            Bachelor of Business Management
           </p>
           <p>
             <span class="font-bold">2006 – 2010</span> | University of South of
@@ -54,46 +50,39 @@
           </p>
         </div>
       </div>
-      <div class="sm:w-8/12 px-6 py-12 text-gray-900">
-        <div class="mb-8">
-          <h1
-            class="
-              uppercase
-              text-3xl
-              font-semibold
-              border-b-2 border-gray-900
-              mb-4
-            "
-          >
+      <div class="sm:w-8/12 px-4 py-10 text-gray-900">
+        <div class="mb-4">
+          <h1 class="uppercase text-3xl font-semibold border-b-2 border-gray-900 mb-2">
             Professional Summary
           </h1>
 
-          <p>
-            {{ content.professional_summary }}
-          </p>
+          <template
+            v-for="(summary, index) in content.professional_summary"
+          >
+            <p
+              :key="index"
+              v-html="summary"
+            />
+          </template>
         </div>
 
-        <div class="mb-8">
-          <h1
-            class="
-              uppercase
-              text-3xl
-              font-semibold
-              border-b-2 border-gray-900
-              mb-4
-            "
-          >
+        <div class="mb-4">
+          <h1 class="uppercase text-3xl font-semibold border-b-2 border-gray-900 mb-2">
             Work History
           </h1>
 
           <div
-            v-for="workHistory in content.work_histories"
-            :key="workHistory"
+            v-for="(workHistory, index) in content.work_histories"
+            :key="index"
+            class="mb-3"
           >
-            <p class="text-base font-bold mb-0">
+            <p class="text-base font-bold  mb-0 text-gray-800">
               {{ workHistory.company_name }}
             </p>
-            <p class="font-medium text-sm mb-1">
+            <p
+              v-if="workHistory.job_title"
+              class="font-semibold text-gray-700 text-sm mb-1"
+            >
               {{ workHistory.job_title }} - {{ workHistory.start_at }} | {{ workHistory.end_at }}
             </p>
 
@@ -101,9 +90,9 @@
               v-for="description in workHistory.description"
               :key="description"
               class="mb-1"
-            >
-              {{ description }}
-            </p>
+              style="line-height: 1.15"
+              v-html="description"
+            />
           </div>
         </div>
       </div>
@@ -156,7 +145,7 @@ html {
   h4,
   h5,
   h6 {
-    /*break-before: always;*/
+    break-before: always;
   }
 
   table,

@@ -19,7 +19,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Fabricio Zeferino full-stack web developer based in England. Laravel, vue.js, docker, relational database.',
+          'Fabricio Zeferino full stack web developer based in England. Laravel, vue.js, docker, relational database.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
