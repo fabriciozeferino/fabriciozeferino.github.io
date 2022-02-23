@@ -36,6 +36,17 @@
         "Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods as DRY and OOP and clean code, making it much easier to maintain and productive to escalate. Restructured the database, creating referential integrity between registers running multiples SYNC to fix old hardcoding.",
         "I have worked directly in a creation of a Microservice for reports, wherein a night routine all the data are migrated from MYSQL to a MongoDB making the reports much faster and the MYSQL free for others requests during the day. I helped to Migrate the server from Windows Server to Linux in AWS. Most relevant tools used in this role: Docker, Continues Integration, GitLab, SSH."
       ]
+    },
+    {
+      "company_name": "eGov Solutions (https://epep.tv/)",
+      "start_at": "Oct 2018",
+      "end_at": "Oct 2018",
+      "job_title": "Full-Stack Developer",
+      "description": [
+        "Under the guidance of senior developer, I am responsible for analysis issues, design and code new features and improvements for an existing web application. Qualified to the development from the frontend end to the backend end throughout the Database. Worked in a Multitenancy platform for 35 councils.",
+        "Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods as DRY and OOP and clean code, making it much easier to maintain and productive to escalate. Restructured the database, creating referential integrity between registers running multiples SYNC to fix old hardcoding.",
+        "I have worked directly in a creation of a Microservice for reports, wherein a night routine all the data are migrated from MYSQL to a MongoDB making the reports much faster and the MYSQL free for others requests during the day. I helped to Migrate the server from Windows Server to Linux in AWS. Most relevant tools used in this role: Docker, Continues Integration, GitLab, SSH."
+      ]
     }
   ]
 }
