@@ -50,9 +50,9 @@
           </p>
         </div>
       </div>
-      <div class="sm:w-8/12 px-4 py-10 text-gray-900">
+      <div class="sm:w-8/12 px-4 py-8 text-gray-900">
         <div class="mb-4">
-          <h1 class="uppercase text-3xl font-semibold border-b-2 border-gray-900 mb-2">
+          <h1 class="uppercase text-2xl font-semibold leading-5 border-b-2 border-gray-900 mb-2">
             Professional Summary
           </h1>
 
@@ -67,7 +67,7 @@
         </div>
 
         <div class="mb-4">
-          <h1 class="uppercase text-3xl font-semibold border-b-2 border-gray-900 mb-2">
+          <h1 class="uppercase text-2xl font-semibold leading-5 border-b-2 border-gray-900 mb-2">
             Work History
           </h1>
 
@@ -94,8 +94,26 @@
               v-html="description"
             />
           </div>
+
+          <p>Regards,</p>
+          <p class="font-bold">
+            Fabricio (Fabi)
+          </p>
+          <a
+            class="text-xs"
+            href="https://fabriciozeferino.github.io/"
+          >https://fabriciozeferino.github.io</a>
         </div>
       </div>
+    </div>
+
+    <div class="flex mt-4 print:hidden">
+      <p class="mx-auto text-sm text-gray-600 hover:underline">
+        <a
+          href="https://github.com/fabriciozeferino/fabriciozeferino.github.io"
+          target="_blank"
+        >Made with Nuxt.js, GitHub Actions and ❤️</a>
+      </p>
     </div>
   </div>
 </template>
