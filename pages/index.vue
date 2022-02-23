@@ -112,7 +112,7 @@
         <a
           href="https://github.com/fabriciozeferino/fabriciozeferino.github.io"
           target="_blank"
-        >Made with Nuxt.js, GitHub Actions and ❤️</a>
+        >Made with Vue.js, Nuxt.js, TailwindCSS, GitHub Actions and ❤️</a>
       </p>
     </div>
   </div>
