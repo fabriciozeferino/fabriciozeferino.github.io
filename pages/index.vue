@@ -1,10 +1,20 @@
 <template>
   <div class="antialiased bg-gray-50 print:bg-white print:text-black md:py-12 text-sm">
+    <div class="print:hidden page mx-auto w-full flex">
+      <button
+        class="ml-auto inline-block text-xs text-gray-500 mb-1 hover:underline"
+        onclick="window.print();return false;"
+      >
+        Print
+      </button>
+    </div>
     <div
       v-if="content"
       class="page sm:flex print:flex mx-auto"
     >
-      <div class="sm:w-4/12 print:w-4/12 print:border-r pt-6 px-4 bg-cyan-900 text-white print:text-black flex flex-col">
+      <div
+        class="sm:w-4/12 print:w-4/12 print:border-r pt-6 px-4 bg-cyan-900 text-white print:text-black flex flex-col"
+      >
         <Avatar class="self-center mb-2" />
 
         <h1 class="text-center font-bold text-2xl">
@@ -123,7 +133,7 @@
 import data from '@/pages/data.json'
 
 export default {
-  data(){
+  data() {
     return {
       content: data,
     }
@@ -152,18 +162,19 @@ html {
 .page {
   max-width: 8.5in;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset,
-    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+  rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
 }
 
 @media print {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    break-before: always;
+  @page {
+    size: A4 portrait !important;
+    margin: 0 !important;
+  }
+
+  html, body {
+    /*height: 100% !important;*/
+    /*width: 100% !important;*/
   }
 
   table,
@@ -177,7 +188,7 @@ html {
     height: 12in;
     background-color: #fff;
 
-    /*box-shadow: initial;*/
+    box-shadow: initial;
   }
 
   @page {
