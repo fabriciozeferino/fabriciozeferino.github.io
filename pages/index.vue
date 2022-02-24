@@ -20,9 +20,10 @@
         <h1 class="text-center font-bold text-2xl">
           {{ content.name }}
         </h1>
-        <p class="text-center mb-4">
+        <p class="text-center mb-6">
           {{ content.job_title }}
         </p>
+
 
         <div class="mb-4">
           <Topic
@@ -62,7 +63,7 @@
       </div>
       <div class="sm:w-8/12 px-4 py-8 text-gray-900">
         <div class="mb-4">
-          <h1 class="uppercase text-2xl font-semibold leading-5 border-b-2 border-gray-900 mb-2">
+          <h1 class="uppercase text-xl font-semibold leading-5 border-b-2 border-gray-900 mb-2">
             Professional Summary
           </h1>
 
@@ -76,8 +77,8 @@
           </template>
         </div>
 
-        <div class="mb-4">
-          <h1 class="uppercase text-2xl font-semibold leading-5 border-b-2 border-gray-900 mb-2">
+        <div class="mb-2">
+          <h1 class="uppercase text-xl font-semibold leading-5 border-b-2 border-gray-900 mb-2">
             Work History
           </h1>
 
@@ -100,14 +101,17 @@
               v-for="description in workHistory.description"
               :key="description"
               class="mb-1"
-              style="line-height: 1.15"
+              style="line-height: 1.13"
               v-html="description"
             />
           </div>
 
           <p>Regards,</p>
           <p class="font-bold">
-            Fabricio (Fabi)
+            Fabricio
+          </p>
+          <p class="text-xs">
+            {{ content.email }}
           </p>
           <a
             class="text-xs"
@@ -122,7 +126,7 @@
         <a
           href="https://github.com/fabriciozeferino/fabriciozeferino.github.io"
           target="_blank"
-        >Made with Vue.js, Nuxt.js, TailwindCSS, GitHub Actions and ❤️</a>
+        >Made with Vue.js, Nuxt.js, Tailwind CSS, GitHub Actions and ❤️</a>
       </p>
     </div>
   </div>

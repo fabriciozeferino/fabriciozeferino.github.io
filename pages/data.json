@@ -1,27 +1,28 @@
 {
   "name": "Fabricio Zeferino",
   "job_title": "Full Stack Developer",
+  "email": "fabriciozeferino@gmail.com",
   "skills": [
     {
       "name": "Backend",
-      "description": "As a backend developer, I'm familiarized with best practices like OOP, SOLID, DRY, TDD and DDD. Lately, I'm using Laravel as an API and have integrated that with multiple third-party APIs like Stripe. Knowledge using most of the Laravel functionalities like queues, jobs, schedule, etc..."
+      "description": "Familiarized with best practices as OOP, SOLID, DRY, TDD and DDD. Lately, using Laravel as an API, integrated with a SPA application and multiple third-party APIs like Stripe and others. Knowledge using most of the Laravel functionalities like queues, jobs, schedule, etc..."
     },
     {
       "name": "Frontend",
-      "description": "I'm a very detail-oriented developer and enjoy seeing things neat. I use in my dally bases tools like Vue Routes, Vuex, Vue I18n, Vue Test Utils, Jest, npm, WebPack, Jest, TailwindCSS, Nightwatch.js and Cucumber.js."
+      "description": "I'm a very detail-oriented developer and enjoy seeing things neat. I have been working in a SPA for the last two years. I use in my dally bases tools like Vue Routes, Vuex, Vue I18n, Vue Test Utils, Jest, npm, Webpack, Jest, Tailwind CSS, Nightwatch.js and Cucumber.js."
     },
     {
       "name": "Database",
-      "description": "Excellent understanding of relational databases, currently working with Postgres but I have used MySQL and MongoDB before. I have created complex queries to analyse Business data."
+      "description": "Excellent understanding of relational databases, currently working with Postgres anyhow I have used MySQL and MongoDB before. I have created complex queries to analyse Business data."
     },
     {
       "name": "General",
-      "description": "Advanced knowledge using tools like Git, gitflow, GitActions, Docker, docker-compose, macOS, Ubuntu, Centos, PHPStorm, Figma."
+      "description": "Advanced knowledge using tools like Git, Gitflow, GitActions, Docker, docker-compose, macOS, Ubuntu, Centos, PhpStorm, Figma."
     }
   ],
   "education": {
-    "degree_name": "<b>Bachelor of Business Administration</b> 2006 – 2010 | University of South of Santa Catarina (UNISUL)",
-    "degree_description": "This degree gave me skills such as project management, resource management, communication, team-working and problem-solving."
+    "degree_name": "<b>Bachelor of Business Administration</b> 2006 – 2010 | University of south of Santa Catarina (UNISUL)",
+    "degree_description": "This degree gives me skills such as project management, resource management, communication, team-working and problem-solving."
   },
   "professional_summary": [
     "Hi, I'm Fabi, a full stack developer living in the UK for more than six years. Hardworking and dedicated, I'm passionate about technology and love what I do as a job.",
@@ -38,9 +39,8 @@
         "-In two years with the help of my teammates created a very scalable application already used by three clubs and with four more in the way.",
         "-This application has 99% of the backend tested with PHPUnit, Vue components tested with Vue Test Utils and Jest and End to end tests with Nightwatch.js and Cucumber.js.",
         "-Connects with third party services like Stripe and multiples SSO.",
-        "-CD/CI using GitHub actions, containers and AWS.",
-        "-Facades do deal with multiple clubs' environments.",
-        "-Create relational architecture which is used all along with the business, like in the fulfilment system.",
+        "-CD/CI using GitHub actions, AWS running application from the containers with load balancer and on a dedicated worker for the heavy jobs and schedules.",
+        "-Created relational architecture, which is used all along with the business, like in the fulfilment system.",
         "-Create static pages using Nuxt.js and collaborate with the company ERP."
       ]
     },
@@ -50,10 +50,10 @@
       "end_at": "December/2019",
       "job_title": "Full stack Developer",
       "description": [
-        "-Responsible for analysing issues, designing and coding new features and improvements for an existing web application using Laravel, Jquery and MySQL.",
+        "-Responsible for analysing issues, designing, and coding new features and improvements for an existing web application using Laravel, jQuery and MySQL.",
         "-Qualified to develop the frontend and backend throughout the Database. Multitenancy monolithic platform with 35 clients and thousands of users.",
         "-Refactored the core of the application reducing class with thousands of lines and hundreds of requests to just a few, applying methods such as DRY and OOP and clean code, making it much easier to maintain and escalate.",
-        "-Restructured the database, creating referential integrity between registers and index running multiples SYNC to fix old hardcoded code.",
+        "-Restructured the database, creating referential integrity between registers and index running multiples SYNC to fix old, hardcoded code.",
         "-Worked directly in a creation of a Microservice for reports, wherein a night routine all the data were migrated from MYSQL to a MongoDB instance making the reports generation instantly to the users and leaving the MYSQL free for requests during the day.",
         "-Helped to migrate the server from an old legacy Windows Server to Linux in AWS. I have used other relevant tools like Docker, Continues Integration, GitLab, SSH."
       ]
