@@ -121,7 +121,7 @@
       </div>
     </div>
 
-    <div class="flex mt-4 print:hidden">
+    <div class="flex mt-4 print:hidden text-center pb-4">
       <p class="mx-auto text-sm text-gray-600 hover:underline">
         <a
           href="https://github.com/fabriciozeferino/fabriciozeferino.github.io"
